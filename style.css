@@ -1,0 +1,108 @@
+header h1 {
+    text-align: center; /* Centers the "About Me" heading */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.decorative-img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc; /* This will ensure bullet points are shown */
+    padding-left: 20px; /* Adds indentation to the list for better visual hierarchy */
+}
+
+li::before {
+    content: none; /* Remove the custom content before each list item */
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px; /* Adjusted to match the padding of section elements */
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer img.decorative-img {
+    display: block;
+    margin: 20px auto 0; /* Center the image and add space above it */
+    width: auto; /* Adjust if necessary to control the size */
+    max-height: 100px; /* Example to keep the image reasonable in size */
+}
+
+.cs-list-with-image {
+    display: flex;
+    align-items: start;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.cs-related-image {
+    margin-left: 40px; /* Creates a 40px gap between the list and the image */
+    width: auto; /* Adjusts width automatically based on the image's original size */
+    height: auto; /* Maintains the image's aspect ratio */
+}

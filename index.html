@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <section>
+        <img src="me.jpeg" alt="My Face" class="profile-pic">
+        <h2>Introduction</h2>
+        <p>My name is Benson Nguyen, and I have a profound interest in <strong>accessibility</strong> within technology. Making digital content accessible to everyone, regardless of their <strong>physical or cognitive abilities</strong>, is not just a passion but a commitment for me.</p>
+    </section>
+    <section>
+        <h2>Interests in Accessibility</h2>
+        <p>I am a senior studying Computer Science and will graduate this May.  I took this class to learn about how I can make technology accessible to everyone and ensure that the things I code are easy and intuitive to use. I hope to break down barriers and create inclusive experiences :)</p>
+        <img src="accessibility.png" alt="My Face" height="300">
+    </section>
+    <section>
+        <h2>Favorite Computer Science Classes</h2>
+        <ul>
+            <li><a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/" target="_blank">Problem Solving Strategies</a></li>
+            <li><a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/" target="_blank">Law and Cybersecurity</a></li>
+            <li><a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/" target="_blank">Human-Computer Interaction</a></li>
+            <li><a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/" target="_blank">Accessible Computing - this class!</a></li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Contact Me</h2>
+        <form action="submit-form-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
